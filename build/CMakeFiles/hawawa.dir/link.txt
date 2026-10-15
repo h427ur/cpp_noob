@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/hawawa.dir/link.d CMakeFiles/hawawa.dir/main.cpp.o -o hawawa
