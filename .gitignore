@@ -1,4 +1,5 @@
 .zed/
 .gram/
 .vscode/
-build
+build/
+build/*
