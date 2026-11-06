@@ -1,4 +1,6 @@
 .zed/
 .gram/
 .vscode/
-build
+.cmake/
+build/*
+CMakeFiles

@@ -1,3 +1,0 @@
-/home/h427ur/Documents/workSpace/Git_repos/cpp_noob/build/CMakeFiles/hawawa.dir
-/home/h427ur/Documents/workSpace/Git_repos/cpp_noob/build/CMakeFiles/edit_cache.dir
-/home/h427ur/Documents/workSpace/Git_repos/cpp_noob/build/CMakeFiles/rebuild_cache.dir
