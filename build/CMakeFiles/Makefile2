@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/h427ur/Documents/workSpace/Git_repos/cpp_noob
+CMAKE_SOURCE_DIR = /Users/h427ur/Documents/gits/cpp_noob
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/h427ur/Documents/workSpace/Git_repos/cpp_noob/build
+CMAKE_BINARY_DIR = /Users/h427ur/Documents/gits/cpp_noob/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/hawawa.dir/clean
 CMakeFiles/hawawa.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hawawa.dir/build.make CMakeFiles/hawawa.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hawawa.dir/build.make CMakeFiles/hawawa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/h427ur/Documents/workSpace/Git_repos/cpp_noob/build/CMakeFiles --progress-num=1,2 "Built target hawawa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/h427ur/Documents/gits/cpp_noob/build/CMakeFiles --progress-num=1,2 "Built target hawawa"
 .PHONY : CMakeFiles/hawawa.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hawawa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/h427ur/Documents/workSpace/Git_repos/cpp_noob/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/h427ur/Documents/gits/cpp_noob/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hawawa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/h427ur/Documents/workSpace/Git_repos/cpp_noob/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/h427ur/Documents/gits/cpp_noob/build/CMakeFiles 0
 .PHONY : CMakeFiles/hawawa.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ hawawa: CMakeFiles/hawawa.dir/rule
 # codegen rule for target.
 CMakeFiles/hawawa.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hawawa.dir/build.make CMakeFiles/hawawa.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/h427ur/Documents/workSpace/Git_repos/cpp_noob/build/CMakeFiles --progress-num=1,2 "Finished codegen for target hawawa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/h427ur/Documents/gits/cpp_noob/build/CMakeFiles --progress-num=1,2 "Finished codegen for target hawawa"
 .PHONY : CMakeFiles/hawawa.dir/codegen
 
 # clean rule for target.
