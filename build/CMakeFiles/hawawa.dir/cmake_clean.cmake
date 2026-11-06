@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hawawa.dir/main.cpp.o"
-  "CMakeFiles/hawawa.dir/main.cpp.o.d"
+  "CMakeFiles/hawawa.dir/link.d"
+  "CMakeFiles/hawawa.dir/src/main.cpp.o"
+  "CMakeFiles/hawawa.dir/src/main.cpp.o.d"
   "hawawa"
   "hawawa.pdb"
 )

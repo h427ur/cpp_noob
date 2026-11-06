@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/h427ur/Documents/gits/cpp_noob/main.cpp" "CMakeFiles/hawawa.dir/main.cpp.o" "gcc" "CMakeFiles/hawawa.dir/main.cpp.o.d"
+  "/home/h427ur/Documents/workSpace/Git_repos/cpp_noob/src/main.cpp" "CMakeFiles/hawawa.dir/src/main.cpp.o" "gcc" "CMakeFiles/hawawa.dir/src/main.cpp.o.d"
+  "" "hawawa" "gcc" "CMakeFiles/hawawa.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

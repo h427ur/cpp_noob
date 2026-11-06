@@ -66,11 +66,11 @@ int main(){
 
     //역참조 연산자
     std::cout << *dyptr << std::endl;
-    printf("var2's address = %p\n", dyptr); //var2가 가리키는 주소 값 출력
+    std::cout << "dyptr's address = " << dyptr << std::endl; //dyptr가 가리키는 주소 값 출력
 
     //참조 연산자
-    printf("var2 = %p\n", &dyptr); //var2의 주소 값 출력
-    printf("var2 = %d\n", **&dyptr); //var2의 주소 값 -> var2의 값 -> var2가 가리키는 주소의 값  출력
+    std::cout << "dyptr = " << &dyptr << std::endl; //dyptr의 주소 값 출력
+    std::cout << "dyptr = " << **&dyptr << std::endl; //dyptr의 주소 값 -> dyptr의 값 -> dyptr가 가리키는 주소의 값 출력
 
     delete dyptr;
 

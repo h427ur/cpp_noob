@@ -1,1 +1,1 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/hawawa.dir/main.cpp.o -o hawawa
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/hawawa.dir/link.d CMakeFiles/hawawa.dir/src/main.cpp.o -o hawawa
